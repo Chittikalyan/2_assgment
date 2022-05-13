@@ -1,0 +1,15 @@
+﻿Fast track python assignment _2
+1. Explain three-dimensional data indexing.
+A:  We developed a 3-dimensional general circulation model for massively parallel vector computers. Our model is suitably designed for the ES architecture: the dynamical framework with the split explicit scheme, the array structure using one dimensional index in the horizontal directions, and the two dimensional domain decomposition. The computational efficiency obtained on the ES with vectorization and parallelization was found to be excellent with the parallelization ratio of 99.988% and the sustained performance of 44%, thus indicating the effectiveness of the non-hydrostatic atmospheric global model with the icosahedral grid.
+A : What's the difference between a series and a dataframe?
+A : DataFrame is a 2-dimensional labeled data structure with columns of potentially different types. You can think of it like a spreadsheet or SQL table, or a dict of Series objects. It is generally the most commonly used pandas object.
+ 3. What role does pandas play in data cleaning?
+A : Pandas allows importing data from various file formats such as comma-separated values, JSON, Parquet, SQL database tables or queries, and Microsoft Excel. Pandas allows various data manipulation operations such as merging, reshaping, selecting, as well as data cleaning, and data wrangling features.
+4. How do you use pandas to make a data frame out of n-dimensional arrays?
+A : I want to be able to create n dimensional dataframes. I ve heard of a method for 3D dataframes using panels in pandas but, if possible, I would like to extend the dimensions past 3 dims by combining different datasets into a super dataframe
+5. Explain the notion of pandas plotting.
+A : Plotting with panda
+Pandas objects come equipped with their
+plotting functions. These plotting functions are essentially wrappers around the matplotlib library. Think of matplotlib as a backend for pandas plots.
+The Pandas Plot is a set of methods that can be used with a Pandas DataFrame, or a series, to plot various graphs from the data in that DataFrame. Pandas Plot simplifies the creation of graphs and plots, so you don't need to know the details of working with matplotlib.
+Built-in visualization in pandas really shines in helping with fast and easy plotting of series and DataFrames.
